@@ -2,7 +2,8 @@ body {
 	/*background-image: url("images/old-paper.jpg");*/
 	background-color: #fefcf2;
 	font-family: "Times New Roman", Times, serif; 
-	margin: 10%
+	margin: 10%;
+	text-align:justify;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -11,11 +12,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 300%;
+	font-size: 200%;
 }
 
 p {
 	font-family: Georgia, serif;
+	text-indent: 1em;
+	margin-bottom: 1em;
+}
+
+hr {
+	text-align: center;
 }
 
 pre {
@@ -24,6 +31,33 @@ pre {
 	margin: 8em;
 }
 
+img {
+	text-align: center;
+}
+
+img + p:first-line, .caption {
+	color: grey;
+	font-size:80%;
+}
+
 .fig {
 	text-align: center;
+}
+
+blockquote {
+	font-style: italic;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	border-style: none;
+}
+
+p.pfirst {
+	text-indent: 0;
+}
+
+.dropcap {
+	float: left;
+	margin: 0 0.1em 0 0;
+	line-height: .8
 }
