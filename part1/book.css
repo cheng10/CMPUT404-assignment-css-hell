@@ -1,1 +1,29 @@
+body {
+	/*background-image: url("images/old-paper.jpg");*/
+	background-color: #fefcf2;
+	font-family: "Times New Roman", Times, serif; 
+	margin: 10%
+}
 
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	font-family: verdana;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+p {
+	font-family: Georgia, serif;
+}
+
+pre {
+	border: 0.2em solid black;
+	padding: 5em;
+	margin: 8em;
+}
+
+.fig {
+	text-align: center;
+}
