@@ -21,6 +21,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-All the html books are adopted from Project Gutenberg: www.gutenberg.org
+All the html books are adapted from Project Gutenberg: www.gutenberg.org
 
 CSS file part contains the work form Chen Cheng (C) 2016
