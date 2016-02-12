@@ -31,7 +31,7 @@ li {
 	width: 100%;
     margin-top: -1em;
     height: 6em;
-  	background-color: #222222;
+  	background-color: #006599;
     margin-bottom: 2em;
     color: #ffffff;
     font-family: Verdana, sans-serif;
@@ -78,7 +78,7 @@ li {
     margin-top: 6em;
     width: 78%;
     height: 50em;
-    background-color: #EEEEEE;
+    background-color: white;
     margin-bottom: 1em;
 }
 
@@ -88,9 +88,9 @@ li {
     margin-top: 6em;
     width: 20%;
     height: 50em;
-    background-color: #333333;
+    background-color: #EEEEEE;
     margin-bottom: 1em;
-    color: #eeeeee;
+    color: black;
 }
 
 a:hover {
