@@ -1,5 +1,6 @@
 body {
 	font-family: Verdana, sans-serif;
+	/*background-image: url("images/bg_sea.jpg");*/
 }
 
 div {
@@ -27,11 +28,14 @@ li {
 #header {
     z-index: 1;
     position: fixed;
-	width: 98%;
+	width: 100%;
     margin-top: -1em;
     height: 6em;
-    background-color: #668284;
+  	background-color: #222222;
     margin-bottom: 2em;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    
 }
 
 #name {
@@ -39,8 +43,6 @@ li {
 	margin-left: 1em;
 	padding-top: 0em;
 	font-size: 2em;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
 }
 
 #email {
@@ -48,19 +50,18 @@ li {
 	margin-right: 1em;
 	padding-top: 1em;
 	font-size: 1em;
-	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
 
 #footer {
     position: relative;
     height: 6em;
-    background-color: #668284;
+    background-color: #cccccc;
     clear: both;
     font-family: Verdana, sans-serif;
     font-size: 14px;
     text-align: center;
-    color: #ffffff;
+    color: #222222;
 }
 
 #my_pic {
@@ -77,7 +78,7 @@ li {
     margin-top: 6em;
     width: 78%;
     height: 50em;
-    background-color: #f4ebc3;
+    background-color: #EEEEEE;
     margin-bottom: 1em;
 }
 
@@ -87,8 +88,9 @@ li {
     margin-top: 6em;
     width: 20%;
     height: 50em;
-    background-color: #B9D7D9;
+    background-color: #333333;
     margin-bottom: 1em;
+    color: #eeeeee;
 }
 
 a:hover {
